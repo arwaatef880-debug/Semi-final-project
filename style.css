@@ -1,0 +1,1761 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------------Start Header--------------------------------*/
+
+
+body{
+    background-color:#fffefd;
+}
+header{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Navbar-icon{
+display: flex;align-items: center;
+}
+
+.container .Navbar-icon img{
+ margin-top:13px ;
+}
+
+.container{
+width: 90%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 60px;
+}
+
+.logo h1{
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+color: #345F71;
+font-size: 24px;
+line-height: 20px;
+letter-spacing: 0.5px;
+}
+
+.logo span{
+color: #E76F51;
+}
+
+.logo p{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 13px;
+line-height: 10px;
+letter-spacing: 2px;
+color:#333333;
+}
+
+.logo{
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+nav ul{
+display: flex ;
+list-style: none;
+ gap: 42px;
+}
+
+nav ul .home{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #ED7B39;
+background-color: #F0925C33;
+padding: 8px 16px;
+border-radius: 999px;
+}
+
+nav ul li{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color:#345F71;
+padding: 8px 16px;
+}
+
+.button{
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: #345F71;
+
+}
+
+button{
+border: none;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+padding: 8px 16px;
+border-radius: 999px;
+align-items: center;
+display: flex;
+gap: 8px;
+color: #345F71;
+border: 1px solid #A6C8D6;
+background-color: white;
+}
+
+.book-button{
+background-image: linear-gradient(#F4A261,#E76F51); 
+border: none;
+box-shadow: 0px 4px 14px 0px #E76F5166;
+}
+
+.icon-bars i{
+display: none;
+}
+
+/*----------------------------------End Header---------------------------------------*/
+
+
+/*---------------------------------Start Hero Section--------------------------------------*/
+.hero-section{
+    background-image: url(./images/hero-section.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #26465340;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.background-section{
+    background-color: #26465340;
+    width: 100%;
+    /* position: relative; */
+}
+.text-section{
+    padding: 80px 100px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E293B99;
+   width:228px ;
+   height: 38px;
+   border-radius: 16777200px;
+   border: 1px solid #F0925C80;
+   
+}
+
+.text-one img{
+  margin-left: 20px;
+}
+
+
+.text-section .travel{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #CBD5E1;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 20px;
+}
+
+.text-section h1{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 60px;
+line-height: 60px;
+letter-spacing: -0.4px;
+color: #FFFFFF;
+}
+
+.text-section h2{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 60px;
+line-height: 60px;
+letter-spacing: -0.4px;
+color: #E76F51;
+}
+
+.text-section p{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.04px;
+color: #FFFFFF;
+width: 520px;
+height: 78px;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.buttons .book-button{
+    color: #FFFFFF;
+     padding: 8PX 25PX;
+}
+
+.my-book-button{
+    background-color: none;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: #C4DBE4;
+    padding: 8PX 25PX;
+}
+
+
+ .numbers{
+    
+     padding:16px 40px;
+      background-color: #1E293B99;
+      width: 208px;
+      height: 220px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top:150px;
+      right: 150px;
+      
+      
+} 
+.routes{
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    align-items: center;
+   
+}
+.routes p{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+color: #FFFFFF;
+line-height: 27px;
+letter-spacing: 0px;
+}
+
+.routes span{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0px;
+color: #CBD5E1;
+white-space: nowrap;
+}
+
+/*---------------------------------End Hero Section--------------------------------------*/
+
+
+/*---------------------------------Start div .search--------------------------------------*/
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 16px 32px;
+    background-color: #FFFFFF;
+    border-radius: 999px;
+    margin-left: 150px;
+    gap: 16px;
+    position: absolute;
+    bottom: -115px;
+    border: 1px solid #FBE4D6;
+}
+
+.search div{
+    display: flex;
+    gap: 8px;
+    justify-content: start;
+    align-items: center;
+    background-color: #F0925C0D;
+    padding: 12px 40px;
+    border-radius: 999px;
+    width: 399px;
+}
+.search  .buttons{
+    font-size: 15px;
+    background-color: transparent;
+    white-space: nowrap;
+}
+/*---------------------------------End div .search--------------------------------------*/
+
+
+/*---------------------------------Start Secound-section--------------------------------------*/
+
+.secound-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120PX;
+
+    
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #F0925C26;
+    padding: 6px 32px;
+    border-radius: 100px;
+    width: fit-content;
+    margin: auto;
+} 
+.start p{
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: center;
+color: #EA6316;
+font-family: "Roboto", sans-serif;
+
+
+}
+
+.Popular{
+   text-align: center;
+}
+
+.Popular p{
+font-family: "Roboto", sans-serif;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 44px;
+line-height: 57.2px;
+letter-spacing: 0px;
+text-align: center;
+color: #264653;
+
+}
+
+.Popular span{
+ font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.04px;
+text-align: center;
+justify-content: center;
+color: #8E8E8E;
+display: flex;
+
+}
+
+
+/*---------------------------------End Secound-section--------------------------------------*/
+
+
+
+/*--------------------------------------Start imegs-section-------------------------------------*/
+
+
+
+.Luxor{
+    width: 413px;
+    height: 435px;
+}
+
+
+.Cairo-to-Luxor{
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+     
+    
+}
+.Luxor img{
+     border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+  
+}
+
+.Cairo-to-Luxor .time{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Cairo-to-Luxor p{
+ font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.04px;
+color: #345F71;
+}
+
+.Cairo-to-Luxor span{
+    color: #777777;
+ font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+
+}
+
+.Cairo-to-Luxor h1{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.1px;
+text-align: right;
+color: #EA6316;
+}
+
+.starts{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.starts img{
+    width: 92px;
+}
+
+.seat{
+    font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.04px;
+color: #1FC16B;
+background-color: #1FC16B1A;
+padding: 8px;
+border-radius: 100px;
+
+}
+
+
+.Luxor .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    
+}
+.Luxor button{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.total{
+    border: 1px solid #E9E4DA;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.imegs-section{
+   
+    margin-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    row-gap: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    row-gap: 30px;
+}
+/*--------------------------------------End imegs-section-------------------------------------*/
+
+
+/*--------------------------------------Start div .view-------------------------------------*/
+
+ .View{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #A6C8D6;
+   border-radius: 999px;
+   padding: 8px 16px; 
+   gap: 8px;
+   width: 228px;
+   margin: auto;
+   margin-bottom: 70px;
+   margin-top: 50px;
+ }
+
+ .View p{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+color:#345F71 ;
+ 
+  
+ }
+
+
+/*--------------------------------------End div .view-------------------------------------*/
+
+
+
+
+/*--------------------------------------start .travel-section-------------------------------------*/
+
+.travel-section{
+    background-color: #264653;
+    padding: 20px;
+}
+
+
+.travel-section .Popular p{
+    color: white;
+}
+
+
+.total-cards{
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+
+.card-one{
+    padding: 32px 24px;
+    background-color: #FFFFFF0D;
+    border-radius: 20px;
+    width: 305px;
+    height: 245px;
+}
+
+.card-one p{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.04px;
+color: #FFFFFF;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.card-one span{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #FFFFFF99;
+
+}
+
+
+
+/*--------------------------------------End .travel-section-------------------------------------*/
+
+.travel-section{
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+ .Popular .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.Popular .title .dest{
+    color: #E76F51;
+}
+
+.Trips{
+    margin: 20px;
+} 
+
+
+
+
+/*--------------------------------------------Start Section .card-imges---------------------------------------*/
+
+.card-imges{
+    display: flex;
+    gap: 8px;
+    /* width: calc((100%-16)/3); */
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card-imge-one{
+    width: 413px;
+    height: 360px;
+    background-image: url(./images/imge\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+
+}
+
+.card-imge-one .span{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 11px;
+line-height: 16.5px;
+letter-spacing: 0px;
+color: #41788E;
+background-color: #FFFFFFEB;
+border-radius: 100px;
+width: 80px;
+padding: 4px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-imge-one .starts span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 19.5px;
+letter-spacing: 0px;
+color: #CBD5E1;
+}
+
+.card-imge-one  .card-bottom p{
+ font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.08px;
+color: #FFFFFF;
+}
+.card-imge-one .card-bottom span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #CBD5E1;
+
+}
+
+.card-imge-one .card-bottom .num{
+font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #F0925C;
+}
+
+
+
+.card-imge-two{
+     width: 413px;
+    height: 360px;
+    background-image: url(./images/imge\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
+.card-imge-two .span{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 11px;
+line-height: 16.5px;
+letter-spacing: 0px;
+color: #41788E;
+background-color: #FFFFFFEB;
+border-radius: 100px;
+width: 80px;
+padding: 4px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-imge-two .starts span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 19.5px;
+letter-spacing: 0px;
+color: #CBD5E1;
+}
+
+
+
+
+.card-imge-two  .card-bottom p{
+ font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.08px;
+color: #FFFFFF;
+}
+
+
+
+.card-imge-two .card-bottom span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #CBD5E1;
+
+}
+
+.card-imge-two .card-bottom .num{
+font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #F0925C;
+}
+
+
+.card-imge-3{
+     width: 413px;
+    height: 360px;
+    background-image: url(./images/imge\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
+.card-imge-3 .span{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 11px;
+line-height: 16.5px;
+letter-spacing: 0px;
+color: #41788E;
+background-color: #FFFFFFEB;
+border-radius: 100px;
+width: 80px;
+padding: 4px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-imge-3 .starts span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 19.5px;
+letter-spacing: 0px;
+color: #CBD5E1;
+}
+
+
+
+
+.card-imge-3  .card-bottom p{
+ font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.08px;
+color: #FFFFFF;
+}
+
+
+
+.card-imge-3 .card-bottom span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #CBD5E1;
+
+}
+
+.card-imge-3 .card-bottom .num{
+font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #F0925C;
+}
+
+.card-imge-4{
+     width: 413px;
+    height: 360px;
+    background-image: url(./images/imge\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
+.card-imge-4 .span{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 11px;
+line-height: 16.5px;
+letter-spacing: 0px;
+color: #41788E;
+background-color: #FFFFFFEB;
+border-radius: 100px;
+width: 80px;
+padding: 4px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-imge-4 .starts span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 19.5px;
+letter-spacing: 0px;
+color: #CBD5E1;
+}
+
+
+
+
+.card-imge-4  .card-bottom p{
+ font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.08px;
+color: #FFFFFF;
+}
+
+
+
+.card-imge-4 .card-bottom span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #CBD5E1;
+
+}
+
+.card-imge-4 .card-bottom .num{
+font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #F0925C;
+}
+
+.card-imge-5{
+     width: 413px;
+    height: 360px;
+    background-image: url(./images/imge\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
+.card-imge-5 .span{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 11px;
+line-height: 16.5px;
+letter-spacing: 0px;
+color: #41788E;
+background-color: #FFFFFFEB;
+border-radius: 100px;
+width: 80px;
+padding: 4px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-imge-5 .starts span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 19.5px;
+letter-spacing: 0px;
+color: #CBD5E1;
+}
+
+
+
+
+.card-imge-5  .card-bottom p{
+ font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.08px;
+color: #FFFFFF;
+}
+
+
+
+.card-imge-5 .card-bottom span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #CBD5E1;
+
+}
+
+.card-imge-5 .card-bottom .num{
+font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #F0925C;
+}
+
+.card-imge-6{
+     width: 413px;
+    height: 360px;
+    background-image: url(./images/imge\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
+.card-imge-6 .span{
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 11px;
+line-height: 16.5px;
+letter-spacing: 0px;
+color: #41788E;
+background-color: #FFFFFFEB;
+border-radius: 100px;
+width: 80px;
+padding: 4px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-imge-6 .starts span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 19.5px;
+letter-spacing: 0px;
+color: #CBD5E1;
+}
+
+
+
+
+.card-imge-6  .card-bottom p{
+ font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.08px;
+color: #FFFFFF;
+}
+
+
+
+.card-imge-6 .card-bottom span{
+ font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #CBD5E1;
+
+}
+
+.card-imge-6 .card-bottom .num{
+font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #F0925C;
+}
+
+
+   .ss{
+    background-color: #26465340;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    padding: 20px;
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+  
+    
+
+/*--------------------------------------------End Section .card-imges---------------------------------------*/
+
+
+
+/*--------------------------------------------Start Section Ready---------------------------------------*/
+
+
+.Ready{
+    display: flex;
+   margin-top: 80px;
+   margin-bottom: 80px;
+  justify-content: center;
+}
+.Ready img{
+    
+    width:420px;
+    height:300px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-right{
+    width:840px;
+    height:300px;
+    background-color: #264653;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-right p{
+    color: white;
+}
+
+.card-right span{
+    margin-top: 30PX;
+}
+
+/*--------------------------------------------End Section Ready---------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------Start section EgyTrips--------------------------------------*/
+
+.EgyTrips{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.EgyTrips1{
+    width: 305px;
+    height: 334px;
+    border: 1px solid #aaa9aa1a;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+.card-top p{
+font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #264653;
+margin-top: 20px;
+margin-bottom: 10px;
+width: 233px;
+}
+
+
+.card-bottomm{
+   margin-top: 40px;
+}
+.part-one{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.inform{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inform p{
+font-family: "Roboto", sans-serif; 
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #264653;
+margin: 0;
+
+}
+
+.inform span{
+font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.04px;
+color: #264653;
+}
+
+.part-two{
+    display: flex;
+    flex-direction: column;
+    /* width: 85px; */
+    align-items: center;
+    margin-left: 120px;
+    margin-top: -35px;
+}
+
+.part-two span{
+    font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.04px;
+color: #264653;
+}
+/*--------------------------------------------End section EgyTrips--------------------------------------*/
+
+
+
+/*---------------------------------------------Start Section .footer----------------------------------------------*/
+
+
+.footer{
+    background-color: #264653;
+    margin-top: 180px;
+    
+}
+
+.cards-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+}
+
+.card1-footer{
+    width: 243.25px;
+    height: 283px;
+    
+}
+
+.card1-footer p{
+   font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 23.8px;
+letter-spacing: 0px;
+margin-left: 20px;
+}
+
+.links{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+
+.card2-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card2-footer .quick{
+font-family: "Roboto", sans-serif; 
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+color: #FFFFFF;
+line-height: 24px;
+letter-spacing: 0px;
+
+}
+
+.card2-footer p{
+font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 21px;
+letter-spacing: 0px;
+
+}
+
+.card3-footer{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 243.25px;
+    height: 283px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+   margin-bottom: 20px;
+}
+
+.icon p{
+font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 21px;
+letter-spacing: 0px;
+
+}
+
+
+.contant{
+font-family: "Roboto", sans-serif;  
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+color: #FFFFFF;
+line-height: 24px;
+letter-spacing: 0px;
+margin-bottom: 20px;
+}
+hr{
+    margin-top: 50px;
+}
+
+.contantt{
+    flex-wrap: wrap;
+}
+.contantt .Your-email{
+    padding: 10px 14px;
+    width: 175px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF26;
+    font-family: "Roboto", sans-serif;  
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+.Join{
+     padding: 10px 14px;
+    width: 175px;
+    background-color: #E76F51;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;  
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+.par{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.par p{
+font-family: "Roboto", sans-serif; 
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.04px;
+color: #FFFFFF;
+}
+/*---------------------------------------------End Section .footer----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------Start Media query (header)------------------------------------*/
+
+/*---------------------------------@media(max-width: 992px)----------------------------------*/
+
+
+@media(max-width: 992px){
+    .numbers{
+        margin-right: -100px;
+    }
+    .hero-section{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .text-section{
+        margin-top: 200px;
+    }
+    .numbers{
+        margin-top: 200px;
+    }
+    .search{
+        position: absolute;
+        left: -90px;
+        width: 90%;
+        
+    }
+    .search div{
+        white-space: nowrap;
+    }
+
+   .imegs-section {
+      width: calc((100%-16)/2);
+      row-gap: 80px;
+      margin-top: 40px;
+   }
+   .View{
+    margin-top: 100px;
+   }
+   
+   .Ready{
+    margin: 60px;
+   }
+   
+   .Ready p{
+    white-space: nowrap;
+    font-size: 30px;
+   }
+   .Welcome-Back img{
+    width: 200px;
+   }
+   .Welcome{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+   }
+}
+
+
+
+/*---------------------------------@media(max-width: 768px)----------------------------------*/
+
+
+@media(max-width: 768px){
+    .icon-bars i{
+        display:block;
+        font-size: 20px;
+    }
+    nav{
+        display: none;
+    }
+    .numbers{
+        position: absolute;
+        top: 590px;
+        left: 10px;
+        margin-left: 110px;
+           }
+    
+    .search{
+        width: calc((100%-16px)/2);
+        flex-wrap: wrap;
+        position: absolute;
+        bottom: -160px;
+    }
+
+     .search div{
+        width: 299px;
+     }
+     .Popular p{
+        font-size: 30px;
+    } 
+    
+    .total-cards{
+        flex-wrap: wrap;
+        width: calc((100%-8px)/2);
+    }
+
+    .Ready{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .card-right{
+        width: 420px;
+         border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    }
+   .Ready img{
+         border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+    .Welcome{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 30px;
+    }
+    }
+
+
+
+/*---------------------------------@media(max-width: 576px)----------------------------------*/
+
+
+@media(max-width: 576px){
+    
+    .hero-section{
+        width:650px;
+        height: 1100px;
+    }
+    .text-section p{
+        margin-top: 20px;
+        width: 420px;
+       
+    }
+    .text-section h1{
+        white-space: nowrap;
+        font-size: 50px;
+    }
+     
+    .text-section h2{
+        white-space: nowrap;
+        font-size: 50px;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .buttons{
+        white-space: nowrap;
+        
+    }
+
+    .text-one p{
+       margin-bottom: 13px;
+    }
+
+    .icon-bars i{
+        margin-right: 20px;
+    }
+    
+    .search {
+        margin-bottom: -600px;
+       
+    }
+    
+    .secound-section .Trips{
+        margin-top: 80px;
+    }
+    .Popular span{
+        font-size: 20px;
+    }
+    .Welcome{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    .left img{
+        width: 500px;
+    }
+    .right{
+       margin-left: 200px;
+    }
+
+    .travel-section{
+       width:650px;
+    }
+    .card-imges{
+        flex-wrap: wrap;
+        width: calc((100%-16px)/2);
+    }
+
+    .total-cards{
+         flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .footer{
+       width: 650px;
+    }
+    .search{
+        display: none;
+    }
+}
+
+
+/*---------------------------------@media(max-width: 380px)----------------------------------*/
+
+
+
+@media(max-width: 380px){
+  
+    .button{
+        display: none;
+
+    }
+     header{
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+     }
+    
+    .hero-section{
+        width:900px;
+        height: 1100px;
+    }
+    .secound-section{
+        flex-wrap: wrap;
+        width: 900px;
+    }
+    .imegs-section{
+        flex-wrap: wrap;
+        margin-left: 200px;
+       
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+    }
+    .text-one p{
+        margin-bottom: 20px;
+    }
+    .Luxor{
+    width:313px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Luxor button{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+    .card-imge-one,.card-imge-two,.card-imge-3,.card-imge-4,.card-imge-5,.card-imge-6{
+        margin: 20px;
+    }
+
+    .title{
+       
+        white-space: nowrap;
+        
+    }
+    .cards-footer{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+       
+    }
+    .par{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .card-right{
+        width: 360px;
+         border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    }
+   .Ready img{
+     width: 360px;
+         border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+    .left img{
+    width: 336px;
+    height: 383px;
+   
+}
+
+.right{
+   padding: 20px;
+}
+ .right input{
+    width: 400px;
+ }
+ .Remember span{
+    width: 40px;
+    white-space: nowrap;
+ }
+   
+ .checkbox{
+    display: none;
+   
+ }
+ .login{
+    width: 300px;
+ }
+
+ .app{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+ }
+
+ .search{
+    display: none;
+ }
+ .Trips{
+    width: 900px;
+ }
+  
+ .travel-section{
+    flex-wrap: wrap;
+    width: 900px;
+ }
+ .total-cards{
+    flex-wrap: wrap;
+ }
+ .card-imges{
+    width: 900px;
+ }
+ .Popular p{
+    font-size: 20px;
+ }
+ .Ready{
+    width: 900px;
+    margin: auto;
+ }
+ .footer{
+    width: 900px;
+ }
+
+ 
+}
+
+
+
+/*----------------------------------End Media query (header)------------------------------------*/
+
+
